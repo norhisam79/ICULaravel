@@ -64,3 +64,5 @@ Route::name('job')->prefix('job')->group(function () {
     })->name('.description');
     
 });
+
+require __DIR__.'/feed/web.php';
